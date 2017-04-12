@@ -3,7 +3,7 @@
 $(function(){
 	var $window = $(window);
 	var $top_bar = $('#toggle-menu');
-	var height = $window.height() + 100;
+	var height = $window.height() - 100;
 	$window.scroll(function(){
 		var wt = $window.scrollTop();
 		if( wt > height){

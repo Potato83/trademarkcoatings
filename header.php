@@ -27,7 +27,6 @@
 
 <!-- FontAwesome Icons -->
 <link href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
 <?php wp_head(); ?>
 
 <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->

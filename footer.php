@@ -30,7 +30,7 @@
 	 Placed at the end of the document so the pages
 	 load faster!
 ================================================== -->
-
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/bootstrap.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js"></script>
 
