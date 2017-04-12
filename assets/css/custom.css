@@ -636,6 +636,20 @@ section:focus{
 .balls ul li{
 	list-style: none;
 	text-align: center;
+
+}
+
+.balls{
+	text-align: center;
+	/*background: blue;*/
+	height: 100px;
+}
+
+.balls ul{
+	height: 80px;
+	/*background: red;*/
+	text-align: center;
+
 }
 
 /*  CENTER THE BALL CONTENT */
@@ -669,6 +683,26 @@ section:focus{
 	border-radius: 100%;
 	
 }
+
+/*@media(max-width: 650px){
+	.balls ul li{
+		background: green;
+		position: relative;
+		
+	}
+
+	.balls ul{
+		margin: auto;
+	}
+
+	.box{
+		right: 0;
+		margin: 0 auto;
+		background: yellow;
+		
+	}
+
+}*/
 
 .box-text{
 	text-align: center;
@@ -995,10 +1029,28 @@ footer a:hover{
 }
 
 @media (max-width: 650px){
+	.balls ul{
+		/*text-align: center;*/
+		/*position: relative;*/
+	}
+
 	.box{
 		width: 70%;
-		margin: 0 15% 20px;
+		/*margin: 0 15% 20px;*/
+		right: 0;
+		left: 0;
+		/*float: none;*/
+		/*position: absolute;*/
 	}
+
+	.balls ul li{
+		width: 70%;
+		margin-left: 7.5% !important;
+		margin-bottom: 20px;
+		/*border-radius: 0;*/
+		/*padding: 0;*/
+	}
+
 	.box-text{
 		font-size: 18px;
 	}
